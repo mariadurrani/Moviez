@@ -17,8 +17,8 @@
 
 body {
     background: #110e16;
-  }
-  
+}
+
 
 .top-img {
     position: relative;
@@ -87,4 +87,47 @@ h1 {
     font-size: 25px;
     margin-top: 70px;
     color: rgb(193, 189, 189);
+}
+
+.movielist-container {
+    padding: 50px;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    top: 50%;
+}
+
+.movielist-item {
+    display: flex;
+    width: 1920px;
+    padding-top: 35px;
+    overflow-x: scroll;
+}
+
+.movielist {
+    margin-right: 10px;
   }
+
+.movielist:hover .movielist-item-img {
+    transform: scale(1.1);
+    margin: 0 30px;
+    opacity: 0.5;
+  }
+
+.movielist-item-img {
+    height: 330px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 0.3s all ease-in-out;
+
+}
+
+.movielist-item-title {
+    color: #fff;
+    font-size: 33px;
+    margin-left: 30%;
+    position: relative;
+}
