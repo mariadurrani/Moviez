@@ -129,5 +129,10 @@ h1 {
     color: #fff;
     font-size: 33px;
     margin-left: 30%;
+    opacity: 0;
     position: relative;
 }
+
+.movielist:hover .movielist-item-title {
+    opacity: 1;
+  }
