@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "raleway";
+}
+
+body {
+    background: #110e16;
+  }
+  
+
 .top-img {
     position: relative;
     box-sizing: border-box;
@@ -8,9 +20,9 @@
     border-radius: 4px;
     box-shadow: 2px 3px 12px rgba(0, 0, 0, .4);
     color: white;
-  }
+}
 
-  .gradient-overlay {
+.gradient-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -18,5 +30,42 @@
     height: 100%;
     z-index: 2;
     background: linear-gradient(to top right, #0d0e19 400px, #382f4600);
-  
-  }
+
+}
+
+.text-overlay {
+    position: absolute;
+    top: 14%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #fff;
+    text-align: start;
+    margin: 70px;
+    margin-left: 15%;
+    margin-top: 6%;
+}
+
+h1 {
+    font-size: 35px;
+    position: relative;
+    color: #fff;
+
+}
+
+.text-overlay span {
+    display: inline-block;
+    position: relative;
+    color: rgb(210, 210, 210);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+.top-runtime {
+    margin-right: 27%;
+}
+
+.top-rating {
+    margin-right: 15px;
+}
