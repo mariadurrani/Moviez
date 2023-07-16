@@ -111,13 +111,13 @@ h1 {
 
 .movielist {
     margin-right: 10px;
-  }
+}
 
 .movielist:hover .movielist-item-img {
     transform: scale(1.1);
     margin: 0 30px;
     opacity: 0.5;
-  }
+}
 
 .movielist-item-img {
     height: 330px;
@@ -128,14 +128,40 @@ h1 {
 
 }
 
+.movie-info {
+    display: flex;
+    color: #fff;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
 .movielist-item-title {
     color: #fff;
-    font-size: 33px;
-    margin-left: 30%;
+    font-size: 20px;
     opacity: 0;
-    position: relative;
+    padding: 20px;
+    margin-top: 10px;
 }
 
 .movielist:hover .movielist-item-title {
     opacity: 1;
-  }
+}
+
+.movie-rating {
+    opacity: 0;
+}
+
+.overview {
+    color: #b9b5b5;
+    margin-left: 20px;
+    opacity: 0;
+}
+
+.movielist:hover .overview {
+    opacity: 1;
+}
+
+.movielist:hover .movie-rating {
+    opacity: 1;
+}

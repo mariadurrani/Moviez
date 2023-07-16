@@ -25,11 +25,12 @@ function showMovies(data) {
         <div class="movie-info">
         <span class="movielist-item-title">${title}</span>
         <span class="movie-rating">${vote_average}</span>
+        
         </div>
 
-        <div class="overview">
+        <p class="overview">
         ${overview}
-        </div>
+        </p>
         `
 
 
