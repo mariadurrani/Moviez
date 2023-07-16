@@ -17,6 +17,7 @@
 
 body {
     background: #110e16;
+    width: 100vw;
 }
 
 .sidebar {
@@ -105,7 +106,6 @@ body {
 .top-img {
     position: relative;
     box-sizing: border-box;
-    width: 100.5%;
     height: 40vw;
     background-size: cover;
     background-position: center;
@@ -186,7 +186,7 @@ h1 {
 
 #movielist-item {
     display: flex;
-    width: 1920px;
+    width: 1600px;
     padding-top: 35px;
     overflow-x: scroll;
 }
