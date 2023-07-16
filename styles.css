@@ -102,7 +102,7 @@ h1 {
     top: 50%;
 }
 
-.movielist-item {
+#movielist-item {
     display: flex;
     width: 1920px;
     padding-top: 35px;
