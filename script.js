@@ -41,10 +41,9 @@ function showMovies(data) {
     })
 }
 
+let btn = document.querySelector("#btn");
+let sideBar = document.querySelector(".sidebar");
 
-// let btn = document.querySelector("#btn");
-// let sideBar = document.querySelector(".sidebar");
-
-// btn.onclick = function () {
-//     sideBar.classList.toggle("active");
-// }
+btn.onclick = function () {
+    sideBar.classList.toggle("active");
+}
